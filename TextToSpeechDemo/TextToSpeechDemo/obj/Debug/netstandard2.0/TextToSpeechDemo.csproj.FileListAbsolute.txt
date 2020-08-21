@@ -1,0 +1,14 @@
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\bin\Debug\netstandard2.0\TextToSpeechDemo.deps.json
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\bin\Debug\netstandard2.0\TextToSpeechDemo.dll
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\bin\Debug\netstandard2.0\ref\TextToSpeechDemo.dll
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\bin\Debug\netstandard2.0\TextToSpeechDemo.pdb
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\TextToSpeechDemo.csprojAssemblyReference.cache
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\TextToSpeechDemo.AssemblyInfoInputs.cache
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\TextToSpeechDemo.AssemblyInfo.cs
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\TextToSpeechDemo.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\TextToSpeechDemo.dll
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\ref\TextToSpeechDemo.dll
+C:\Users\Mohammed Alhiiaj\source\repos\TextToSpeechDemo\TextToSpeechDemo\TextToSpeechDemo\obj\Debug\netstandard2.0\TextToSpeechDemo.pdb
