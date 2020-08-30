@@ -16,6 +16,7 @@ namespace TextToSpeechDemo
             InitializeComponent();
             BindingContext = this;
 
+
         }
         protected async override void OnAppearing()
         {
@@ -29,11 +30,18 @@ namespace TextToSpeechDemo
                 return new Command(async () => await SpeakNow());
             }
         }
+        public Command SpeechSettingsCommand
+        {
+            get
+            {
+                return new Command( () =>DependencyService.Get<IOpenSpeechSettingsPage>().OpenSpeechSettingPage());
+            }
+        }
         public async Task<List<string>> GetLanguagesListAsync()
         {
             
                 return (await TextToSpeech.GetLocalesAsync()).Select(s => s.Language).ToList();
-            
+          
         }
         public async Task SpeakNow()
         {

@@ -12,6 +12,8 @@
                 <Picker x:Name="LanguagesPicker" FontSize="Title" Title="Languages" HeightRequest="60" />
                 <Entry HorizontalTextAlignment="Center" x:Name="TextEntry" Placeholder="type text to speech" FontSize="Subtitle" />
                 <Button TextColor="White" VerticalOptions="EndAndExpand"  Text="Speech" HeightRequest="50" BackgroundColor="#2196F3" Command="{Binding SpeakNowCommand}"/>
+                <Button TextColor="White" VerticalOptions="EndAndExpand"  Text="Open Speech Settings" HeightRequest="50" BackgroundColor="#2196F3" Command="{Binding SpeechSettingsCommand}"/>
+
             </StackLayout>
         </Frame>
           
