@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "v/+Z2/8qFBd2cRbvOy+90KhL0Unmn180JZnUYAvZbQ03Y5OEWi6ch2/sX+T78CsO9NivUnjx7xMSiztdiwTTnA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mohammed Alhiiaj\\source\\repos\\TextToSpeechDemo\\TextToSpeechDemo\\TextToSpeechDemo.iOS\\TextToSpeechDemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Mohammed Alhiiaj\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+  ],
+  "logs": []
+}

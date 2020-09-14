@@ -51,20 +51,29 @@ namespace TextToSpeechDemo
                 await DisplayAlert("Error null", "please type select a Language", "cancel");
                 return;
             }
-            var locale = locales.FirstOrDefault(s=>s.Language==(string) LanguagesPicker.SelectedItem);
-           
-            var settings = new SpeechOptions()
-            {
-                Volume = .75f,
-                Pitch = 1.0f,
-                Locale = locale
-            };
             if (string.IsNullOrWhiteSpace(TextEntry.Text))
             {
                 await DisplayAlert("Error Empty", "please type something to speech!", "cancel");
                 return;
             }
-            await TextToSpeech.SpeakAsync(TextEntry.Text, settings);
+            if (Device.RuntimePlatform== Device.Android)
+            {
+                DependencyService.Get<ITextToSpeech>().Speak(TextEntry.Text);
+            }
+            else
+            {
+                var locale = locales.FirstOrDefault(s => s.Language == (string)LanguagesPicker.SelectedItem);
+                var settings = new SpeechOptions()
+                {
+                    Volume = .75f,
+                    Pitch = 1.0f,
+                    Locale = locale
+                };
+
+                await TextToSpeech.SpeakAsync(TextEntry.Text, settings);
+
+            }
+
         }
     }
 }
