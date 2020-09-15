@@ -11,11 +11,13 @@ namespace TextToSpeechDemo
 {
     public partial class MainPage : ContentPage
     {
+        private ITextToSpeech Myspeaker;
+
         public MainPage()
         {
             InitializeComponent();
             BindingContext = this;
-
+            Myspeaker = DependencyService.Get<ITextToSpeech>();
 
         }
         protected async override void OnAppearing()
@@ -58,7 +60,7 @@ namespace TextToSpeechDemo
             }
             if (Device.RuntimePlatform== Device.Android)
             {
-                DependencyService.Get<ITextToSpeech>().Speak(TextEntry.Text);
+                Myspeaker.Speak(TextEntry.Text);
             }
             else
             {
